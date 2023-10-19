@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 10;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.total-container {
+    background-image: url("https://i.ibb.co/MD09Zwy/img1.jpg");
+    height:100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav {
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    padding-left: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: serif;
+}
+
+.container-full{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.first {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+}
+
+.font {
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon {
+    padding-right: 10px;
+}
+
+.card-container {
+    background-color:rgb(247, 121, 121);
+    opacity: 0.7;
+    margin-left: 10%;
+    width: 40%;
+    height: 30%;
+    padding: 2%;
+}
+
+.head {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.paragraph {
+    color: whitesmoke;
+}
+.bottom {
+    height:10vh;
+    background-image: linear-gradient(to right,rgb(218, 112, 130),rgb(230, 174, 70));
+}
+
+.next-page {
+    background-image: linear-gradient(to right,rgb(218, 112, 130),rgb(230, 174, 70));
+    margin-top: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.order-head {
+    color:white;
+    text-align: center;
+}
+
+.food-card-container{
+    background-color: whitesmoke;
+    padding: 1%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    height: 400px;
+    width: 270px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+
+.total-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.button-text {
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 15%;
+    
+}
+
+.button {
+    background-color:rgb(240, 184, 193);
+    border-radius: 20px;
+    border-width: 0px;
+    text-align: center;
+    padding: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 768px){
+    .total-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .list {
+        padding-left: 30px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: serif;
+        font-size: 20px;
+    }
+
+    .container-full{
+        padding-left: 0px;
+    }
+    
+    .icon {
+        padding-right: 8px;
+    }
+    
+    .card-container {
+        width: 60%;
+        height: 30%;
+        padding: 2%;
+    }
+    
+    .paragraph {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width : 576px) {
+    .list {
+        padding-left: 7px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: serif;
+        font-size: 9px;
+    }
+
+    .container-full{
+        padding-left: 0px;
+    }
+    
+    .font {
+        display: none;
+    }
+    .card-container {
+        width: 60%;
+        height: 34%;
+        padding: 2%;
+    }
+    .head {
+        font-size: 20px;
+    }
+    
+    .paragraph {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width : 767px) and (min-width: 576px){
+    .list {
+        padding-left: 10px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: serif;
+        font-size: 16px;
+    }
+
+    .container-full{
+        padding-left: 0px;
+    }
+    .card-container {
+        width: 50%;
+        height: 34%;
+        padding: 2%;
+    }
+    .head {
+        font-size: 25px;
+    }
+    .font {
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   }
+    
+    .paragraph {
+        font-size: 18px;
+    }
+}
